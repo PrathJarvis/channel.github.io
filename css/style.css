@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+body{
+    font-family: 'poppins',sans-serif;
+    background-color: rgb(91, 90, 87);
+}
+.divder{
+    background: white;
+    height: 1px;
+}
+.form-data{
+    padding: 50px;
+    background-color: rgb(221, 218, 227);
+    width: auto;
+}
+.form-coinatner{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.form-cointent{
+    padding: 4px;
+}
+input[type=text]{
+    padding: 10px;
+    outline: none;
+    width: 100%;
+}
+input[type=date]{
+    padding: 10px;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+}
+input[type=submit]{
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(22, 212, 92);
+    border: none;
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+}
+input[type=submit]:hover{
+    background-color: rgb(236, 103, 8);
+}
+.drive-iframe{
+    padding-top: 100px;
+}
+iframe{
+    width: 100%;
+    height: 400px;
+}
